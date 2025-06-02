@@ -3,188 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Levis Mbaku Akanji - Portfolio</title>
-  <style>
-    /* Reset some default styles */
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9fafb;
-      color: #333;
-      line-height: 1.6;
-    }
-    a {
-      color: #1e90ff;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-    a:hover {
-      color: #3742fa;
-    }
-
-    /* Header */
-    header {
-      background: #222831;
-      color: #eeeeee;
-      padding: 2rem 1rem;
-      text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      letter-spacing: 1px;
-    }
-    header p {
-      margin-top: 0.5rem;
-      font-weight: 500;
-      font-size: 1.1rem;
-      color: #00adb5;
-    }
-
-    /* Container */
-    .container {
-      max-width: 900px;
-      margin: 2rem auto 4rem auto;
-      padding: 0 1rem;
-    }
-
-    /* Projects Section */
-    .projects {
-      display: grid;
-      gap: 2.5rem;
-    }
-
-    .project {
-      background: #ffffff;
-      padding: 1.8rem 2rem;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-      transition: box-shadow 0.3s ease;
-    }
-    .project:hover {
-      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-    }
-    .project h2 {
-      margin-top: 0;
-      margin-bottom: 0.7rem;
-      color: #222831;
-      font-weight: 700;
-      font-size: 1.8rem;
-    }
-    .project p {
-      color: #555;
-      font-size: 1rem;
-      white-space: pre-line; /* preserves line breaks */
-      margin-bottom: 1rem;
-    }
-
-    /* Responsive video and iframe */
-    video,
-    iframe {
-      width: 100%;
-      max-height: 360px;
-      border-radius: 12px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.12);
-      background: #000;
-      object-fit: cover;
-      display: block;
-    }
-
-    /* Footer */
-    footer {
-      background: #222831;
-      color: #eeeeee;
-      text-align: center;
-      padding: 1.8rem 1rem;
-      font-size: 0.9rem;
-      letter-spacing: 0.04em;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-      user-select: none;
-    }
-    footer p:not(:last-child) {
-      margin-bottom: 0.4rem;
-    }
-    footer a {
-      margin: 0 0.6rem;
-      font-weight: 600;
-    }
-
-    /* Responsive for smaller screens */
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-      .project h2 {
-        font-size: 1.4rem;
-      }
-    }
-  </style>
+  <title>Levis Mbaku Akanji - Home</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
   <header>
     <h1>Levis Mbaku Akanji</h1>
     <p>Fullstack Developer &bull; System Developer</p>
   </header>
 
-  <main class="container">
-    <section class="projects">
-      
-      <article class="project">
-        <h2>Fullstack Project: Car Dealership Website</h2>
-        <p>
-          I built a fullstack dealership website application using Next.js (App Router), Tailwind CSS, and shadcn/ui. The site includes a responsive and accessible design with the following key features:
+  <section class="container" id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Levis Mbaku Akanji, a passionate Fullstack Developer and System Developer. I specialize in creating responsive, scalable applications using modern technologies like Next.js, .NET, and AI tools. I enjoy solving complex problems and building tools that make life easier.
+    </p>
 
-          Home Page with a hero section, vehicle search, featured listings, and a “Why Choose Us” section.
-
-          Inventory Page displaying vehicles with filters, sorting, and pagination.
-
-          Vehicle Detail Page showing detailed specs, features, and a contact form.
-
-          Contact Page with a form and dealership contact info.
-
-          About Page highlighting the dealership’s story, values, and team.
-
-          Reusable Header & Footer for consistent branding across pages.
-
-          The application delivers a seamless user experience across devices and is designed to be both visually appealing and functionally robust.
-        </p>
-        <iframe src="https://kzmp123aeee2pid4fioi.lite.vusercontent.net/" allowfullscreen title="Car Dealership Demo"></iframe>
-      </article>
-
-      <article class="project">
-        <h2>A.I Chatbot Project: Another Great Project</h2>
-        <p>Build a basic chatbot and Converse with the chatbot to ask any questions related to software development and receive the appropriate response.</p>
-        <iframe src="https://kzmnhxzpo1rrc2luw4kx.lite.vusercontent.net/" allowfullscreen title="AI Chatbot Demo"></iframe>
-      </article>
-
-      <article class="project">
-        <h2>Clean-Web-Api: Yet Another Project</h2>
-        <p>
-          Web API Project with CQRS/MediatR pattern, Repository Pattern with MySQL Database, JWT Authorization, FluentValidations, Github Actions, Error Handling Strategy, Custom Exceptions.
-        </p>
-        <video controls>
-          <source src="videos/Video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </article>
-
-      </section>
-  </main>
+    <img src="Picture1.jpg" alt="Levis Mbaku Akanji">
+  </section>
 
   <footer>
-    <p>Contact: <a href="mailto:Akanjilevy@yahoo.com">Akanjilevy@yahoo.com</a></p>
-    <p>
-      <a href="https://www.linkedin.com/in/levis-mbaku-akanji-6bbb66136/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-      <a href="https://github.com/Levis-Akanji?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a> |
-    </p>
+    <p>&copy; 2025 Levis Mbaku Akanji</p>
   </footer>
 
 </body>

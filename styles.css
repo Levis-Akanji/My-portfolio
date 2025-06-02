@@ -1,0 +1,86 @@
+/* styles.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fafb;
+  color: #333;
+  scroll-behavior: smooth;
+}
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #3742fa;
+}
+nav {
+  background: #393e46;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav a {
+  margin: 0 1rem;
+  color: #eeeeee;
+  font-weight: bold;
+}
+header {
+  background: #222831;
+  color: #eeeeee;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+#about img {
+  width: 300px;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+.project {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+  max-width: 100%;
+}
+.project h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+  color: #222831;
+}
+.project p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+video, iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 1rem;
+  aspect-ratio: 16 / 9;
+}
+footer {
+  background: #222831;
+  color: #eee;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+}
